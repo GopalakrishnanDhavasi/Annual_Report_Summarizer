@@ -73,22 +73,5 @@ Built-in authentication system (username + password hashing).
 | Translation | Deep Translator |
 | PDF Engine | pdfkit (wkhtmltopdf) |
 | Auth | Custom Python Auth |
-
----
-
-## 📂 Project Structure
-
-  📦 Annual-Report-Summarizer
-  │
-  ├── app.py # Main Streamlit application
-  ├── auth.py # Login system
-  ├── audio.py # Text-to-speech (MP3 generation)
-  ├── translate.py # Language translation logic
-  ├── pdf_processing.py # PDF extraction, cleaning, chunking
-  ├── summarizer.py # LLM summarization logic
-  ├── vectorstore.py # ChromaDB vector store creation
-  ├── prompts.py # Section-level retrieval & summary prompts
-  ├── requirements.txt # Dependencies
-  ├── check.py # wkhtmltopdf setup test script
-  └── assets/ # Images, logos
+ 
 
