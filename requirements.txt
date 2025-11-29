@@ -1,0 +1,17 @@
+streamlit
+python-dotenv
+PyMuPDF
+
+langchain
+langchain-community
+langchain-huggingface
+langchain-groq
+
+chromadb
+sentence-transformers
+
+google-generativeai
+
+tqdm
+requests
+httpx>=0.27.0,<1
