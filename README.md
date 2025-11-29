@@ -7,7 +7,6 @@ Transform long and complex corporate annual reports into **clean, structured, AI
 <div align="center">
   <img src="https://img.shields.io/badge/Framework-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
   <img src="https://img.shields.io/badge/AI-Gemini%202.5%20Flash-4285F4?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/Llama-3.3%2070B-Groq-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/VectorDB-ChromaDB-3CB371?style=for-the-badge" />
 </div>
 
