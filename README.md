@@ -73,5 +73,84 @@ Built-in authentication system (username + password hashing).
 | Translation | Deep Translator |
 | PDF Engine | pdfkit (wkhtmltopdf) |
 | Auth | Custom Python Auth |
+
+
+# ⚙️ Setup Guide
+
+Follow the steps below to install and run the **Annual Report Summarizer** on your local system.
+
+---
+1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+
+
+2️⃣ Create Virtual Environment Windows
+      python -m venv venv
+      venv\Scripts\activate
+
+Mac / Linux
+      python3 -m venv venv
+      source venv/bin/activate
+
+3️⃣ Install Dependencies
+      pip install -r requirements.txt
+
+4️⃣ Install wkhtmltopdf (Required for PDF Export)
+
+      Download from:
+      👉 https://wkhtmltopdf.org/downloads.html
+      
+      Verify installation:
+      
+      python check.py
+
+
+If everything is correct, you'll see a successful PDF generation message.
+
+5️⃣ Create .env File
+
+      Create a new file named .env in the project root and add the following:
+      
+      GOOGLE_API_KEY=your_google_api_key
+      GROQ_API_KEY=your_groq_api_key
+      APP_USERNAME=admin
+      APP_PASSWORD=1234
+
+🔑 Get API Keys
+
+      Google Gemini API Key: https://aistudio.google.com
+      
+      Groq API Key: https://console.groq.com/keys
+
+6️⃣ Run the Application
+      streamlit run app.py
+
+
+Open the app in your browser:
+👉 http://localhost:8501/
+
+7️⃣ Login
+
+      Use the credentials (or your own if changed in .env):
+      
+      Username: admin
+      Password: 1234
+
+🎉 You're Ready!
+
+Upload any annual report PDF and start generating:
+
+      AI Summaries
+      
+      Translations
+      
+      Audio Narration
+      
+      Downloadable PDFs
+
+Enjoy using the AI-powered Annual Report Summarizer 🚀
  
 
